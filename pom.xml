@@ -141,7 +141,7 @@
                             <configuration>
                                <destFile>$/var/lib/jenkins/workspace/adam-pipeline/target/coverage-reports/jacoco-unit.exec</destFile>
                                <dataFile>$/var/lib/jenkins/workspace/adam-pipeline/target/coverage-reports/jacoco-unit.exec</dataFile>
-                            <configuration>
+			    </configuration>
 			    <executions>
 				<execution>
 				    <goals>
