@@ -139,8 +139,8 @@
 			    <artifactId>jacoco-maven-plugin</artifactId>
 			    <version>0.8.7</version>
                             <configuration>
-                               <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
-                               <dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
+                               <destFile>$/var/lib/jenkins/workspace/adam-pipeline/target/coverage-reports/jacoco-unit.exec</destFile>
+                               <dataFile>$/var/lib/jenkins/workspace/adam-pipeline/target/coverage-reports/jacoco-unit.exec</dataFile>
                             <configuration>
 			    <executions>
 				<execution>
