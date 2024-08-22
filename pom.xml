@@ -22,7 +22,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://localhost:9000/</sonar.host.url>
-		<sonar.login>squ_18bdab9143336c4fbfa12a9de27472ae6b60b6d5</sonar.login>
+		<sonar.token>squ_18bdab9143336c4fbfa12a9de27472ae6b60b6d5</sonar.token>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -132,10 +132,7 @@
 			    <groupId>org.jacoco</groupId>
 			    <artifactId>jacoco-maven-plugin</artifactId>
 			    <version>0.8.7</version>
-                            <configuration>
-                               <destFile>$/var/lib/jenkins/workspace/adam-pipeline/target/coverage-reports/jacoco-unit.exec</destFile>
-                               <dataFile>$/var/lib/jenkins/workspace/adam-pipeline/target/coverage-reports/jacoco-unit.exec</dataFile>
-			    </configuration>
+
 			    <executions>
 				<execution>
 				    <goals>
